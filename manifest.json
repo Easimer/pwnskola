@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Pwnskola",
+  "description": "Kitölti a ThatQuiz tesztet 100%-osra.",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "http://*/*"
+  ],
+  "content_scripts" : [{
+    "matches" : ["*://*.thatquiz.org/tq*"],
+    "js" : ["pwnskola.js"]
+    }]
+}
