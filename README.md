@@ -1,7 +1,7 @@
 # Pwnskola
 
-Chrome bővítmény, ami hozzáad a ThatQuiz-es tesztek aljára egy piros Pwnskola gombot, ami kipörgeti a tesztet 100%-os 
-eredménnyel.
+Chrome és Firefox bővítmény, ami hozzáad a ThatQuiz-es tesztek aljára egy piros
+Pwnskola gombot, ami kipörgeti a tesztet 100%-os eredménnyel.
 
 A SZOFTVER A SZERZŐK ÉS A KÖZREMŰKÖDŐK "AKTUÁLIS ÁLLAPOTÁBAN" BIZTOSÍTJÁK, KIFEJEZETTEN
 KIZÁRVA MINDENNEMŰ KIFEJEZETT VAGY HALLGATÓLAGOS GARANCIÁT, BELEÉRTVE TÖBBEK
