@@ -1,0 +1,14 @@
+{
+  "title": "Pwnskola",
+  "name": "pwnskola",
+  "version": "0.2.0",
+  "description": "ThatQuiz exploit",
+  "main": "index.js",
+  "author": "Daniel Meszaros",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": []
+}
