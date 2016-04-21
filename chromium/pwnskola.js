@@ -2,7 +2,7 @@
 // (c) 2016 Daniel Meszaros
 
 var pwnskola = {
-	btn : undefined,
+	rsecs : 0,
 	/// Hozzáad egy gombot a ThatQuiz oldal aljára.
 	init : function()
 	{
@@ -29,18 +29,46 @@ var pwnskola = {
 			alert("Még nem kezdted el a tesztet. Válassz ki egy felhasználót!");
 			return;
 		}
-		// Átállítja a quiz.incorrects getterjét úgy, hogy mindig üres tömböt adjon vissza.
-		quiz.__defineGetter__("incorrects", function() { return []; });
-		// Végiglépkedi a tesztet
-		for(i = 0; i < quiz.testDef.length - 1; i++)
+		
+		// Generál egy random teljesítési időt, ahol kérdésenként 30-40 másodperc telt el.
+		quiz.rsecs = 0;
+		for(i = 0; i < quiz.testDef.length; i++)
 		{
-			multiplechoice.fz2(undefined); // ha a paraméter undefined az rossz válasznak minősül
+			quiz.rsecs += Math.round((Math.random() * 10) + 30);
 		}
-		// Beállítja a rossz válaszok számát -1-re, a jókat a kérdéssor hosszára
-		quiz.wrong = -1;
-		quiz.right = quiz.testDef.length;
-		// Utolsó kérdést is átlépi
-		multiplechoice.fz2(undefined);
+
+		// Beállítja a quiz.seconds getterjét úgy, hogy a hamis időt adja vissza.
+		quiz.__defineGetter__("seconds", function() {
+			return quiz.rsecs;
+		});
+
+		// A quiz.right mindig a kérdések számával fog visszatérni
+		quiz.__defineGetter__("right", function() {
+			return quiz.testDef.length;
+		});
+
+		// A quiz.wrong mindig nullával fog visszatérni
+		quiz.__defineGetter__("wrong", function() {
+			return 0;
+		});
+
+		// Átállítja a quiz.incorrects getterjét úgy, hogy mindig üres tömböt adjon vissza.
+		quiz.__defineGetter__("incorrects", function() {
+			return [];
+		});
+
+		function stepq()
+		{
+			// Különböző típusú kérdésekhez.
+			multiplechoice.fz2(undefined);
+			multiplechoice.u76();
+		}
+
+		// Végiglépkedi a tesztet
+		for(i = 0; i < quiz.testDef.length; i++)
+		{
+			stepq();
+		}
 	},
 
 	/// Kezeli a Pwnskola gomb kattintásának eseményét
