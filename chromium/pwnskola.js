@@ -17,6 +17,7 @@ var pwnskola = {
 	//Ez csinálja a varázslatot
 	magic : function()
 	{
+		// Figyelmeztetik a felhasználót dolgokról
 		if(quiz.idx > 0)
 		{
 			document.getElementById("pwnskolabtn").remove();
@@ -28,12 +29,17 @@ var pwnskola = {
 			alert("Még nem kezdted el a tesztet. Válassz ki egy felhasználót!");
 			return;
 		}
+		// Átállítja a quiz.incorrects getterjét úgy, hogy mindig üres tömböt adjon vissza.
+		quiz.__defineGetter__("incorrects", function() { return []; });
+		// Végiglépkedi a tesztet
 		for(i = 0; i < quiz.testDef.length - 1; i++)
 		{
-			multiplechoice.fz2(undefined);
+			multiplechoice.fz2(undefined); // ha a paraméter undefined az rossz válasznak minősül
 		}
+		// Beállítja a rossz válaszok számát -1-re, a jókat a kérdéssor hosszára
 		quiz.wrong = -1;
 		quiz.right = quiz.testDef.length;
+		// Utolsó kérdést is átlépi
 		multiplechoice.fz2(undefined);
 	},
 
