@@ -1,19 +1,43 @@
-Copyright (c) 2016 Daniel Meszaros
+Pwnskola - Általános Szerződési Feltételek
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of 
-this software and associated documentation files (the "Software"), to deal in 
-the Software without restriction, including without limitation the rights to 
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies 
-of the Software, and to permit persons to whom the Software is furnished to do 
-so, subject to the following conditions:
+I. A szerződés tartalma
 
-The above copyright notice and this permission notice shall be included in all 
-copies or substantial portions of the Software.
+A jelen felhasználási feltételek (Szerződés) Mészáros Dániel (a továbbiakban: Szerző) szoftverének (Szoftver) 
+birtoklásának, használatának és/vagy létének ismeretében levésének feltételeit tartalmazza, valamint ez a Szerző és a 
+Szoftver birtoklója, használója és létének ismeretében levőjének (Felhasználó) között létrejövő szerződés. A Szerző 
+fenntartja magának a jogot, hogy a felhasználási feltételeket külön figyelmeztetés nélkül módosítsa. A létrejött szerződés 
+nem minősül írásba foglalt szerződésnek, ezért azokat a Szerző nem iktatja, és utóbb nem hozzáférhetőek.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
-SOFTWARE.
+II. A szoftver felhasználási feltételei
+
+1. A Felhasználó nem élhet vissza a Szoftverrel. Például:
+	1.1 A Szoftvert a Felhasználó nem terjesztheti harmadik félnek, többek között, de nem kizárlólagosan, másolással, 
+	    allicenszeléssel vagy viszonteladással.
+	1.2 A Felhasználó a Szoftver létét felfedi.
+	1.3 A Felhasználó a Szerző írott engedélye nélkül módosítja a Szoftvert.
+	1.4 A Felhasználó a Szerző írott engedélye nélkül visszafejti a Szoftver kódját.
+	1.5 A Felhasználó az Ő saját licensszével felhatalmaz egy másik személyt a Szoftver használatára.
+	1.6 A Felhasználó nem zavarhatja meg, béníthatja le vagy pusztíthatja el a Szoftvert.
+
+2. A Szerző fenntartja a Szerződés akármikori, akármilyen módosítását, annak vagy a Felhasználó a Szoftverhez való hozzáférés megszüntetését, a Felhasználónak tudomása nélkül.
+	2.1 A Szerződés megszűntetésekor, a Felhasználó a Szoftverhez való minden licensze azonnali hatállyal megszűnik.
+	2.2 A Szerző fenntartja a jogot, hogy akármikor, akármilyen okból megtagadja a Szoftver használatát akárkinek. Ilyen ok lehet, többek között:
+		a) a Felhasználó megszegi ezen Szerződés akármelyik pontját;
+		b) a hatóságok kötelezik a Szerzőt
+	2.3 A Felhasználó fenntartja a jogot, hogy akármikor, akármilyen okból megszüntetheti a Szerződést. A szerződés megszüntetése nem érvényteleníti a Szerződés korábbi
+	    megsértéseiből következő eljárásokat.
+
+3. Egyéb
+	3.1 Az, hogy a Szerző nem tudja ezen feltételeknek akármelyik szekciójában felsoroltjait végrehajtani, nem 
+	    jelenti, hogy azon szekcióban felsoroltakról lemondott.
+	3.2 Ha a Szerződés valamely pontjának végre nem hajthatósága nem lesz hatással a többi pontjaira.
+
+III. Felelősség kizárása
+
+A SZOFTVERT A SZERZŐ "AKTUÁLIS ÁLLAPOTÁBAN" BIZTOSÍTJA, KIFEJEZETTEN KIZÁRVA MINDENNEMŰ KIFEJEZETT VAGY HALLGATÓLAGOS 
+GARANCIÁT, BELEÉRTVE TÖBBEK KÖZÖTT A FORGALOMKÉPESSÉGRE VAGY ADOTT CÉLRA TÖRTÉNŐ HASZNÁLHATÓSÁGRA VONATKOZÓ HALLGATÓLAGOS 
+GARANCIÁT. A SZERZŐ SEMMILYEN KÖRÜLMÉNYEK KÖZÖTT NEM FELELŐS SEMMILYEN KÖZVETLEN, KÖZVETETT, VÉLETLENSZERŰ, SPECIÁLIS, 
+BÜNTETŐ VAGY KÖVETKEZMÉNYI KÁRÉRT, BÁRHOGYAN OKOZTÁK ÉS BÁRMILYEN JOGÉRTELMEZÉS ALAPJÁN, AKÁR SZERZŐDÉSES JOGVISZONYBAN, 
+SAJÁT FELELŐSSÉG ALAPJÁN VAGY SZERZŐDÉSEN KÍVÜLI JOGVISZONY SORÁN (BELEÉRTVE A GONDATLANSÁGOT IS) KÖVETKEZETT BE, ÉS 
+AMELYET BÁRMILYEN MÓDON A SZOFTVER HASZNÁLATA OKOZOTT, FÜGGETLENÜL ATTÓL, HOGY FIGYELMEZTETTEK-E ILYEN KÁROK 
+FELMERÜLÉSÉNEK LEHETŐSÉGÉRE.

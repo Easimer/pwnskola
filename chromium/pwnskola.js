@@ -29,6 +29,12 @@ var pwnskola = {
 			alert("Még nem kezdted el a tesztet. Válassz ki egy felhasználót!");
 			return;
 		}
+		if(quiz.finished())
+		{
+			document.getElementById("pwnskolabtn").remove();
+			alert("A teszt már véget ért.");
+			return;
+		}
 		
 		// Generál egy random teljesítési időt, ahol kérdésenként 30-40 másodperc telt el.
 		quiz.rsecs = 0;
