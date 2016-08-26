@@ -1,43 +1,35 @@
-Pwnskola - Általános Szerződési Feltételek
+Copyright (c) 2016, Daniel Meszaros <easimer@gmail.com>
+Minden jog fenntartva.
+-----
+Jelen szoftver a BSD licenc feltételeinek megfelelően terjeszthető,
+használható és módosítható: A forráskód-formátumban és bináris
+formában történő újraterjesztés és felhasználás (módosított
+vagy változatlan formában) az alábbi feltételek mellett engedélyezett:
 
-I. A szerződés tartalma
+        1. A forráskód újraterjesztéseinek tartalmaznia kell a fenti szerzői
+jogi figyelmeztetést, a jelen feltétellistát, valamint az alábbi
+nyilatkozatot.
+        2. A bináris formátumú újraterjesztésnek meg kell
+jelenítenie a fenti szerzői jogi értesítést, jelen feltétellistát,
+valamint a dokumentációban található alábbi nyilatkozatot és/vagy
+az eredetihez tartozó egyéb anyagokat.
+        3. Sem a fent felsorolt szerzőijog-tulajdonos(ok) neve,
+sem pedig a közreműködők neve nem használható fel előzetes írásbeli
+engedély nélkül a jelen szoftverből származó termékek támogatására
+vagy reklámozására.
 
-A jelen felhasználási feltételek (Szerződés) Mészáros Dániel (a továbbiakban: Szerző) szoftverének (Szoftver) 
-birtoklásának, használatának és/vagy létének ismeretében levésének feltételeit tartalmazza, valamint ez a Szerző és a 
-Szoftver birtoklója, használója és létének ismeretében levőjének (Felhasználó) között létrejövő szerződés. A Szerző 
-fenntartja magának a jogot, hogy a felhasználási feltételeket külön figyelmeztetés nélkül módosítsa. A létrejött szerződés 
-nem minősül írásba foglalt szerződésnek, ezért azokat a Szerző nem iktatja, és utóbb nem hozzáférhetőek.
-
-II. A szoftver felhasználási feltételei
-
-1. A Felhasználó nem élhet vissza a Szoftverrel. Például:
-	1.1 A Szoftvert a Felhasználó nem terjesztheti harmadik félnek, többek között, de nem kizárlólagosan, másolással, 
-	    allicenszeléssel vagy viszonteladással.
-	1.2 A Felhasználó a Szoftver létét felfedi.
-	1.3 A Felhasználó a Szerző írott engedélye nélkül módosítja a Szoftvert.
-	1.4 A Felhasználó a Szerző írott engedélye nélkül visszafejti a Szoftver kódját.
-	1.5 A Felhasználó az Ő saját licensszével felhatalmaz egy másik személyt a Szoftver használatára.
-	1.6 A Felhasználó nem zavarhatja meg, béníthatja le vagy pusztíthatja el a Szoftvert.
-
-2. A Szerző fenntartja a Szerződés akármikori, akármilyen módosítását, annak vagy a Felhasználó a Szoftverhez való hozzáférés megszüntetését, a Felhasználónak tudomása nélkül.
-	2.1 A Szerződés megszűntetésekor, a Felhasználó a Szoftverhez való minden licensze azonnali hatállyal megszűnik.
-	2.2 A Szerző fenntartja a jogot, hogy akármikor, akármilyen okból megtagadja a Szoftver használatát akárkinek. Ilyen ok lehet, többek között:
-		a) a Felhasználó megszegi ezen Szerződés akármelyik pontját;
-		b) a hatóságok kötelezik a Szerzőt
-	2.3 A Felhasználó fenntartja a jogot, hogy akármikor, akármilyen okból megszüntetheti a Szerződést. A szerződés megszüntetése nem érvényteleníti a Szerződés korábbi
-	    megsértéseiből következő eljárásokat.
-
-3. Egyéb
-	3.1 Az, hogy a Szerző nem tudja ezen feltételeknek akármelyik szekciójában felsoroltjait végrehajtani, nem 
-	    jelenti, hogy azon szekcióban felsoroltakról lemondott.
-	3.2 Ha a Szerződés valamely pontjának végre nem hajthatósága nem lesz hatással a többi pontjaira.
-
-III. Felelősség kizárása
-
-A SZOFTVERT A SZERZŐ "AKTUÁLIS ÁLLAPOTÁBAN" BIZTOSÍTJA, KIFEJEZETTEN KIZÁRVA MINDENNEMŰ KIFEJEZETT VAGY HALLGATÓLAGOS 
-GARANCIÁT, BELEÉRTVE TÖBBEK KÖZÖTT A FORGALOMKÉPESSÉGRE VAGY ADOTT CÉLRA TÖRTÉNŐ HASZNÁLHATÓSÁGRA VONATKOZÓ HALLGATÓLAGOS 
-GARANCIÁT. A SZERZŐ SEMMILYEN KÖRÜLMÉNYEK KÖZÖTT NEM FELELŐS SEMMILYEN KÖZVETLEN, KÖZVETETT, VÉLETLENSZERŰ, SPECIÁLIS, 
-BÜNTETŐ VAGY KÖVETKEZMÉNYI KÁRÉRT, BÁRHOGYAN OKOZTÁK ÉS BÁRMILYEN JOGÉRTELMEZÉS ALAPJÁN, AKÁR SZERZŐDÉSES JOGVISZONYBAN, 
-SAJÁT FELELŐSSÉG ALAPJÁN VAGY SZERZŐDÉSEN KÍVÜLI JOGVISZONY SORÁN (BELEÉRTVE A GONDATLANSÁGOT IS) KÖVETKEZETT BE, ÉS 
-AMELYET BÁRMILYEN MÓDON A SZOFTVER HASZNÁLATA OKOZOTT, FÜGGETLENÜL ATTÓL, HOGY FIGYELMEZTETTEK-E ILYEN KÁROK 
-FELMERÜLÉSÉNEK LEHETŐSÉGÉRE.
+JELEN SZOFTVERT A SZERZŐIJOG-TULAJDONOSOK ÉS KÖZREMŰKÖDŐK „AKTUÁLIS
+ÁLLAPOTÁBAN” BIZTOSÍTJÁK, KIFEJEZETTEN KIZÁRVA MINDENNEMŰ
+KIFEJEZETT VAGY HALLGATÓLAGOS GARANCIÁT, BELEÉRTVE TÖBBEK KÖZÖTT
+A FORGALOMKÉPESSÉGRE VAGY ADOTT CÉLRA TÖRTÉNŐ HASZNÁLHATÓSÁGRA
+VONATKOZÓ HALLGATÓLAGOS GARANCIÁT. A SZERZŐI JOG TULAJDONOSA ÉS
+A KÖZREMŰKÖDŐK SEMMILYEN KÖRÜLMÉNYEK KÖZÖTT NEM FELELŐSEK
+SEMMILYEN KÖZVETLEN, KÖZVETETT, VÉLETLENSZERŰ, SPECIÁLIS, BÜNTETŐ
+VAGY KÖVETKEZMÉNYI KÁRÉRT (IDEÉRTVE, DE NEM KIZÁRÓLAGOS JELLEGGEL A
+CSERETERMÉKEK VAGY SZOLGÁLTATÁSOK BESZERZÉSÉT, A HASZNÁLAT VESZTESÉGÉT,
+AZ ADATVESZTÉST VAGY A PROFITVESZTESÉGET, ILLETVE AZ ÜZEMIDŐ-KIESÉST),
+BÁRHOGYAN OKOZTÁK ÉS BÁRMILYEN JOGÉRTELMEZÉS ALAPJÁN, AKÁR
+SZERZŐDÉSES JOGVISZONYBAN, SAJÁT FELELŐSSÉG ALAPJÁN VAGY SZERZŐDÉSEN
+KÍVÜLI JOGVISZONY SORÁN (BELEÉRTVE A GONDATLANSÁGOT IS) KÖVETKEZETT BE,
+ÉS AMELYET BÁRMILYEN MÓDON A SZOFTVER HASZNÁLATA OKOZOTT, FÜGGETLENÜL
+ATTÓL, HOGY FIGYELMEZTETTEK-E ILYEN KÁROK FELMERÜLÉSÉNEK LEHETŐSÉGÉRE.
