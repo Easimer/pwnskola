@@ -6,11 +6,17 @@ var pwnskola = {
 	/// Hozzáad egy gombot a ThatQuiz oldal aljára.
 	init : function()
 	{
+		pwnskola.prc = document.createElement("input");
+		pwnskola.prc.setAttribute("id", "pwnskolaprc");
+		pwnskola.prc.setAttribute("type", "text");
+		pwnskola.prc.setAttribute("placeholder", "Jó válaszok száma")
+		pwnskola.prc.setAttribute("style", "background-color: #cad5d3; width: 175px; margin-top: 10px;")
 		pwnskola.btn = document.createElement("button");
 		pwnskola.btn.appendChild(document.createTextNode("Pwnskola"));
 		pwnskola.btn.setAttribute("id", "pwnskolabtn");
 		pwnskola.btn.setAttribute("style", "background-color: #cad5d3; width: 100px; margin-top: 10px;");
 		pwnskola.btn.onclick = pwnskola.onclick;
+		document.body.appendChild(pwnskola.prc);
 		document.body.appendChild(pwnskola.btn);
 	},
 
@@ -48,14 +54,30 @@ var pwnskola = {
 			return quiz.rsecs;
 		});
 
+		var txt = document.getElementById("pwnskolaprc");
+
+		if(txt.value.length == 0)
+		{
+			quiz.__perc = quiz.testDef.length;
+		}
+		else
+		{
+			quiz.__perc = parseInt(txt.value);
+			if(quiz.__perc == NaN)
+			{
+				alert("Érvénytelen jó-válasz szám!");
+				return;
+			}
+		}
+
 		// A quiz.right mindig a kérdések számával fog visszatérni
 		quiz.__defineGetter__("right", function() {
-			return quiz.testDef.length;
+			return quiz.__perc;
 		});
 
 		// A quiz.wrong mindig nullával fog visszatérni
 		quiz.__defineGetter__("wrong", function() {
-			return 0;
+			return quiz.testDef.length - quiz.__perc;
 		});
 
 		// Átállítja a quiz.incorrects getterjét úgy, hogy mindig üres tömböt adjon vissza.
